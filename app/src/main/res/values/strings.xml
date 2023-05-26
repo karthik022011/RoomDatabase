@@ -7,6 +7,9 @@
     <string name="dismiss">Dismiss</string>
     <string name="description">Description</string>
     <string name="notes">Notes</string>
+    <string name="update">Update</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_description">Enter Description</string>
 
 
 </resources>

@@ -15,7 +15,7 @@ class NoteRepositoryImpl@Inject constructor(
     }
 
     override suspend fun getNote(id: Int): Note {
-        TODO("Not yet implemented")
+        return  appDatabase.appDao().getNote(id)
     }
 
     override suspend fun addNote(note: Note) {
@@ -23,11 +23,11 @@ class NoteRepositoryImpl@Inject constructor(
     }
 
     override suspend fun updateNote(note: Note) {
-        TODO("Not yet implemented")
+        appDatabase.appDao().updateNote(note)
     }
 
     override suspend fun deleteNote(note: Note) {
-        TODO("Not yet implemented")
+        appDatabase.appDao().deleteNote(note)
     }
 
 
